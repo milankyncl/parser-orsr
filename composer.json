@@ -1,0 +1,21 @@
+{
+    "name": "milankyncl/php-orsr-api",
+    "description": "PHP ORSR Api parser.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "milankyncl",
+            "email": "kontakt@milankyncl.cz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nette/caching": "^3.0@dev"
+    },
+    "autoload": {
+        "classmap": [
+            "src/ORSRApi.php"
+        ]
+    }
+}
